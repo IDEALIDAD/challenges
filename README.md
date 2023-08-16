@@ -1,5 +1,6 @@
 # challenges-idealidad
 10 Retos para desarrolladores 
+Se realizo un [Paso a paso](https://docs.google.com/document/d/1-mjumJ7hx9W_Qz-k9vXqVxgipwyUcNGTQV47qTqICKI/edit?usp=sharing) para el desarrollo de este reto.
 
 ### Envia tu reto:
 

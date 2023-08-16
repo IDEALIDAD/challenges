@@ -1,0 +1,145 @@
+:root {
+    --colorBgd: #F2F0F0;
+    --colorTitle: #202330;
+    --colorTxt: #424D66;
+    --colorTxt2: #BFBDBD;
+    --colorBtn: #B30432;
+    --colorMask: #bfbdbd32;
+    --fill-bar: 0%
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.txt {
+    color: var(--colorTxt);
+}
+
+.title {
+    color: var(--colorTitle);
+    font-weight: 500;
+    margin: 5px;
+}
+
+.img-container {
+    width: 99%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#drop-img {
+    width: 550px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--colorBgd);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#preview {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px dashed var(--colorBtn);
+    background-color: var(--colorMask);
+    background-position: center;
+    background-size: cover;
+    color: var(--colorTxt2);
+}
+
+#preview img {
+    width: 250px;
+    margin-top: 25px;
+}
+
+.previeNewImg {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 20px;
+    margin: 0 !important;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#choose-img {
+    position: relative;
+    padding: 10px;
+    width: 200px;
+    background-color: var(--colorBtn);
+    border-radius: 20px;
+    color: var(--colorTitle);
+    font-weight: 500;
+
+}
+
+.btn-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 700,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+#containerSuccess {
+    margin-bottom: 15px;
+    display: none;
+}
+
+#success {
+    background-color: var(--colorBtn);
+    border-radius: 100%;
+    padding: 4px;
+    color: white;
+    width: 27px;
+
+}
+
+#cotainerBar {
+    width: 100%;
+    display: none;
+    font-size: large;
+}
+
+#loadIcon {
+    color: var(--colorTxt2);
+    animation: giro 1s linear infinite;
+
+
+}
+
+#btnCopyURL {
+    display: none;
+    margin: 15px;
+    cursor: pointer;
+}
+
+@keyframes giro {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
