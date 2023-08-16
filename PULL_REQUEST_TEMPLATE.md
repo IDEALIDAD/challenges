@@ -1,7 +1,7 @@
 ## [idealidad]:~$ idealidad challenges
 
-- Name:
-- GitHub
+- Name:Maria Jose Andrade
+- GitHub:/andradeMajo
 - Twitter:
 - Twitch:
 - Repositorio:
@@ -9,7 +9,7 @@
 ## challenge:
   - [ ] 404 Not fount
   - [ ] Social media dashboard
-  - [ ] Image Uploader
+  - [x] Image Uploader
   - [ ] Weather app
   - [ ] Github Jobs
   - [ ] IP Address Tracker
